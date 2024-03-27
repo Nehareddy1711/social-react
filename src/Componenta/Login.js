@@ -1,4 +1,3 @@
-
 import React, { useContext } from 'react';
 import { Usecontext1 } from '../UserContext/Usercontext1';
 import Register from './Register';
