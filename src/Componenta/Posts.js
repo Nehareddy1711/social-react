@@ -1,5 +1,3 @@
-// Albums.js
-
 import React, { useContext, useEffect } from "react";
 import { Usecontext1 } from "../UserContext/Usercontext1";
 import "./Posts.css";
