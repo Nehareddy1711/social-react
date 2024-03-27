@@ -1,13 +1,14 @@
 import React, { useContext } from "react";
 import { Usecontext1 } from "./UserContext/Usercontext1";
-import Home from "./Componenta/Home";
-import Login from "./Componenta/Login";
-import Register from "./Componenta/Register";
-import Feeds from "./Componenta/Feeds";
-import Posts from "./Componenta/Posts";
+import Home from "./Components/Home";
+import Login from "./Components/Login";
+import Register from "./Components/Register";
+import Feeds from "./Components/Feeds";
+import Posts from "./Components/Posts";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import Albums from "./Componenta/Albums";
-import Comments from "./Componenta/Comments";
+import Albums from "./Components/Albums";
+import Comments from "./Components/Comments";
+import Employees from "./Components/Employees";
 
 export default function App() {
   const { flag, setFlag } = useContext(Usecontext1);
@@ -22,6 +23,7 @@ export default function App() {
           <Route path={`${PATH}/post`} element={<Posts />}></Route>
           <Route path={`${PATH}/albums`} element={<Albums />}></Route>
           <Route path={`${PATH}/comments`} element={<Comments/>}></Route>
+          <Route path={`${PATH}/employees`} element={<Employees/>}></Route>
         </Routes>
       </Router>
     </>

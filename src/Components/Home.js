@@ -46,6 +46,9 @@ function Home() {
           <div >
           <Link to={`${PATH}/post`}>Posts</Link>
           </div>
+          <div >
+          <Link to={`${PATH}/employees`}>Employees</Link>
+          </div>
           
         </div>
       </div>

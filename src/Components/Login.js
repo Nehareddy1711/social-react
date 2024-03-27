@@ -22,10 +22,7 @@ export default function Login() {
             SetuserName1(UserName)
             console.log(UserName)
             setFlag(1);
-            
             isLoggedIn = true;
-            
-            
         }
         
        })
