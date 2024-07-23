@@ -7,7 +7,7 @@ export default function Employees() {
   const [data] = useFetch(url);
 
   return (
-    <div className='employees-container'>
+    <div>
       {data && data.map((v) => <div>{v.name}</div>)}
     </div>
   )
